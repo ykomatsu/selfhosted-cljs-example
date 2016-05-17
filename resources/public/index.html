@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Self-Hosted ClojureScript</title>
+  </head>
+  <body>
+    <form>
+      <input id="hello" type="button" value="Hello!">
+    </form>
+    <script src="/js/index-dev.js"></script>
+    <script id="example" type="text/x-clojure">
+(.log js/console "Hello, world!")
+    </script>
+  </body>
+</html>
